@@ -6,14 +6,12 @@ This project detects fraudulent transactions using SQL. It includes:
 - **Transaction Data Modeling**
 - **Fraud Detection with Views & Stored Procedures**
 - **Automated Execution via SQL Server Agent**
-- **Power BI Visualization (Coming Soon)**  
 
 ## 📁 Project Structure  
 - `BankingFraudSchema.sql` → Database & Table Creation  
 - `DataInsertion.sql` → Sample Data  
-- `Views.sql` → Fraud Analysis Views  
-- `StoredProcedures.sql` → Fraud Detection Procedures  
-- `SQLJobSetup.md` → Instructions for Automating Execution  
+- `View Creation.sql` → Fraud Analysis Views  
+- `Procedure.sql` → Fraud Detection Procedures   
 
 ## ⚙️ Setup Instructions  
 1. Run `BankingFraudSchema.sql` to create tables.  
